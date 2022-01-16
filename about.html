@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"> <img src="logo.png" alt=""> </a>
+        
+            <div class="nav-links"id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+  
+<!-- about us containt -->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are world's largest company</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus sint autem iste culpa vitae ab minima commodi, possimus modi recusandae aperiam ut delectus totam neque, consectetur atque, impedit aliquam.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="attractive-african-young-confident-businesswoman-260nw-1712082700.jpeg">
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- footer -->
+
+<section class="footer">
+ <h4>About Us</h4>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aut sint dolor ipsum, <br> ut ullam labore! Ducimus iusto aperiam minima quisquam eos culpa debitis cumque. Hic architecto nostrum quas perspiciatis!</p>
+ 
+ <div class="icons">
+    
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+ </div>
+ <p>Made With <i class="fas fa-heart"></i> By Susila </p>
+</section>
+
+    <!--------JavaScript for Toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+           navlinks.style.right= "0"
+        }
+        function hideMenu(){
+           navlinks.style.right= "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

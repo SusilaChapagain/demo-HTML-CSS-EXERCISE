@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"> <img src="logo.png" alt=""> </a>
+        
+            <div class="nav-links"id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Services</h1>
+
+    </section>
+  
+<!-- Services contain -->
+
+<section class="services">
+    <h1>Services We Provide</h1>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, labore minima sit nulla temporibus atque voluptates! Autem, ut incidunt error magni ad et nostrum debitis, ipsum inventore reiciendis corrupti neque.</p>
+    <div class="row">
+        <div class="services-col">
+            <h3>Project Management</h3>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nostrum velit numquam neque, asperiores reiciendis officia aspernatur tempore ducimus voluptatem mollitia iste perspiciatis nisi inventore eius, nulla vero quos a?</p>
+        </div>
+        <div class="services-col">
+            <h3>Risk Assessment</h3>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nostrum velit numquam neque, asperiores reiciendis officia aspernatur tempore ducimus voluptatem mollitia iste perspiciatis nisi inventore eius, nulla vero quos a?</p>
+        </div>
+        <div class="services-col">
+            <h3> Consultation Services</h3>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nostrum velit numquam neque, asperiores reiciendis officia aspernatur tempore ducimus voluptatem mollitia iste perspiciatis nisi inventore eius, nulla vero quos a?</p>
+        </div>
+    </div>
+</section>
+
+<!-- facilities-->
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum at sunt obcaecati odio harum possimus eveniet fuga! Exercitationem eos in labore! Corrupti veniam odio, laboriosam ad saepe voluptate ipsa!</p>
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="research.webp" alt="">
+        <h3>Research Centre</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque maiores cupiditate et, facere aperiam rem iste sapiente quos porro voluptatum, exercitationem libero vero error? Amet modi fuga at maiores libero.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="training.jpeg" alt="">
+        <h3>Training Centere</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque maiores cupiditate et, facere aperiam rem iste sapiente quos porro voluptatum, exercitationem libero vero error? Amet modi fuga at maiores libero.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="seminar.jpeg" alt="">
+        <h3>Seminar Hall</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque maiores cupiditate et, facere aperiam rem iste sapiente quos porro voluptatum, exercitationem libero vero error? Amet modi fuga at maiores libero.</p>
+    </div>
+</div>
+
+</section>
+
+
+<!-- footer -->
+
+<section class="footer">
+ <h4>About Us</h4>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aut sint dolor ipsum, <br> ut ullam labore! Ducimus iusto aperiam minima quisquam eos culpa debitis cumque. Hic architecto nostrum quas perspiciatis!</p>
+ 
+ <div class="icons">
+    
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+ </div>
+ <p>Made With <i class="fas fa-heart"></i> By Susila </p>
+</section>
+
+    <!--------JavaScript for Toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+           navlinks.style.right= "0"
+        }
+        function hideMenu(){
+           navlinks.style.right= "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"> <img src="logo.png" alt=""> </a>
+        
+            <div class="nav-links"id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our research for the year 2022</h1>
+
+    </section>
+    <!-- blog page containt -->
+
+<section class="blog-containt">
+    <div class="row">
+        
+        <div class="blog-left">
+            <img src="blog 1.jpeg">
+            <h2>Our research for the year 2022</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem velit pariatur natus similique! Vitae beatae iusto doloremque a, nemo ipsa eaque laudantium saepe, tempore nobis ratione. Odit inventore dicta quasi.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ullam architecto quae unde dolorem, natus nisi blanditiis ipsa ducimus ab dolores, nostrum obcaecati dicta quo ipsum itaque, voluptatem reprehenderit aspernatur?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta nulla repellat aliquid aut sapiente tenetur necessitatibus, dolorem quaerat eos iusto eaque unde dignissimos voluptatibus culpa tempore tempora quae</p>
+
+<div class="comment-box">
+
+    <h3>Leave a comment</h3>
+    <form action="" class="comment-form">
+       <input type="text" placeholder="Enter Name">
+       <input type="text" placeholder="Enter Email">
+       <textarea rows="5" placeholder="Your Comment"></textarea>
+       <button type="submit" class="hero-btn red-btn">Post Comment</button>
+    </form>
+</div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Machine learning</span>
+                <span>17</span>
+            </div>
+            <div>
+                <span>Risk assessment</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Computer science</span>
+                <span>20</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+  
+
+
+<!-- footer -->
+
+<section class="footer">
+ <h4>About Us</h4>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aut sint dolor ipsum, <br> ut ullam labore! Ducimus iusto aperiam minima quisquam eos culpa debitis cumque. Hic architecto nostrum quas perspiciatis!</p>
+ 
+ <div class="icons">
+    
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+ </div>
+ <p>Made With <i class="fas fa-heart"></i> By Susila </p>
+</section>
+
+    <!--------JavaScript for Toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+           navlinks.style.right= "0"
+        }
+        function hideMenu(){
+           navlinks.style.right= "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
